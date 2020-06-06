@@ -1,0 +1,12 @@
+# if there is an existed variable outside the function
+- and that variable is called inside the function, it will take 
+its value
+- and that variable share its name with the same variable 
+then the outside function will be ignored
+
+#in order to change the value of outsider (variable) using 
+a function. Use keyword "global". Note that it will only change 
+if outsider is before the invocation of the function
+
+# when using a list as a parameter
+- only the value is being taken despite the outsider's name
