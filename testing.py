@@ -1,3 +1,1 @@
-n = range(0,4)
-
-print(n)
+print(17 % 15)
