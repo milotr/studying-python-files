@@ -4,9 +4,39 @@ its value
 - and that variable share its name with the same variable 
 then the outside function will be ignored
 
+a = 1
+
+def fun():
+    a = 2
+    print(a)
+
+fun()
+print(a)
+
+Output: 2, 1
+
+
+
+
 #in order to change the value of outsider (variable) using 
 a function. Use keyword "global". Note that it will only change 
 if outsider is before the invocation of the function
+
+a = 1
+
+def fun():
+    global a
+    a = 2
+    print(a)
+
+fun()
+a = 3
+print(a)
+
+Outputs: 2, 3
+
+
+
 
 # when using a list as a parameter
 - only the value is being taken despite the outsider's name
