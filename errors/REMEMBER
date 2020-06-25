@@ -1,0 +1,7 @@
+Remember:
+
+the order of the branches matters!
+don't put more general exceptions before more concrete ones;
+this will make the latter one unreachable and useless;
+moreover, it will make your code messy and inconsistent;
+Python won't generate any error messages regarding this issue.

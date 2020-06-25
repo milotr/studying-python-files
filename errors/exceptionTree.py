@@ -1,0 +1,7 @@
+#BaseException
+#↑
+#Exception
+#↑
+#ArithmeticError
+#↑
+#ZeroDivisionError

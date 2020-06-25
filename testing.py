@@ -1,13 +1,13 @@
-def readint(prompt, min, max):
-    print(prompt)
-    number = input()
-    try:
-        return number if number < 10 and number > -10 else number
-    except:
-        print("something is wrong")
-    return None
+def mysplit(strng):
+    list = []
+    while 1:
+        for i in strng:
+            list.append(i)
+        return list
 
 
-v = readint("Enter a number from -10 to 10: ", -10, 10)
-
-print("The number is:", v)
+print(mysplit("To be or not to be, that is the question"))
+print(mysplit("To be or not to be,that is the question"))
+print(mysplit("   "))
+print(mysplit(" abc "))
+print(mysplit(""))
