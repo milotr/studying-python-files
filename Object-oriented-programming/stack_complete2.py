@@ -35,5 +35,8 @@ for i in range(5):
     stackObject.push(i)
 print(stackObject.getSum())
 
+
+    
+
 for i in range(5):
     print(stackObject.pop())
