@@ -3,3 +3,5 @@ class Stack:    # defining the Stack class
         print("Hi!")
 
 stackObject = Stack()    # instantiating the object
+
+#def is a constructor. it's name will always be 

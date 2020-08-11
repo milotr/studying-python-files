@@ -5,7 +5,7 @@ class ExampleClass:
         # self.varia = val is an instance variable \
         # of the same name as class's one
 
-        # varia = val wwould operate on a method's local variable
+        # varia = val would operate on a method's local variable
 
 print(ExampleClass.__dict__)
 exampleObject = ExampleClass(2)
