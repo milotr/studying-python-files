@@ -19,7 +19,7 @@ exampleObject2 = ExampleClass(2)
 exampleObject3 = ExampleClass(4)
 
 # there is no "__dict__" because class variables aren't parts of an object
-# class variable always presents the same value iin all class instances
+# class variable always presents the same value in all class instances
 print(exampleObject1.__dict__, exampleObject1.counter)
 print(exampleObject2.__dict__, exampleObject2.counter)
 print(exampleObject3.__dict__, exampleObject3.counter)
