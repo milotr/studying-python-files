@@ -1,0 +1,7 @@
+All these means allow the Python programmer to perform two important activities specific to many objective languages. They are:
+
+INTROPECTION, which is the ability of a program to examine the type or properties of an object at runtime;
+REFLECTION, which goes a step further, and is the ability of a program to manipulate the values, properties and/or functions of an object at runtime.
+
+In other words, you don't have to know a complete class/object definition to manipulate the object, as the object and/or its class contain the metadata allowing you to recognize its features during program execution.
+
