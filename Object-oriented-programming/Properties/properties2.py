@@ -8,12 +8,7 @@ class ExampleClass:
 exampleObject = ExampleClass(1)
 print(exampleObject.a)
 
-if hasattr (exampleObject, 'b'):
+try:
     print(exampleObject.b)
-
-
-class ExampleClass2:
-    attr = 1
-
-print(hasattr(ExampleClass2, 'attr'))
-print(hasattr(ExampleClass2, 'prop'))
+except AttributeError:
+    pass
