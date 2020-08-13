@@ -1,0 +1,8 @@
+It is basically passing attributes and methods 
+from the superclass to a subclass, a newly created on
+
+in a way, it is a way to build a new class, not from scratch, but by using an already
+defined set of traits. 
+
+So it is possible to build more concreate classes using some sets of predefined 
+general rules and behaviors. 
