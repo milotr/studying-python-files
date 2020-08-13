@@ -21,5 +21,6 @@ str1 += "lamb"
 
 print(str1 == str2, str1 is str2)
 
-# The results: The results prove that ob1 and ob3 are actually the same objects, while str1 and str2 aren't, despite their contents being the same.
+# The results: The results prove that ob1 and ob3 are actually the same objects,
+# while str1 and str2 aren't, despite their contents being the same.
 

@@ -7,3 +7,4 @@ class Classy:
         self.other()
 
 obj = Classy()
+obj.method()
