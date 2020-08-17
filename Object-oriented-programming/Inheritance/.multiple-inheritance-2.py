@@ -20,8 +20,11 @@ class Right:
     def fun(self):
         return "Right"
 
+# You can change how Python scans the classes by changing its orders
 class Sub(Left, Right):
     pass
+#class Sub(Right,Left):
+   #pass
 
 
 obj = Sub()
